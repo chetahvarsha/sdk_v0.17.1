@@ -1,0 +1,18 @@
+[package]
+name = "numbat-wasm-node"
+version = "0.17.2"
+edition = "2018"
+
+authors = ["Andrei Marinica <andrei.marinica@numbat.com>", "Numbat Network <contact@numbat.com>"]
+license = "GPL-3.0-only"
+readme = "README.md"
+repository = "https://github.com/chetahvarsha/sdk_v0.17.1.git"
+homepage = "https://numbat.com/"
+documentation = "https://docs.numbat.com/"
+description = "Numbat WebAssembly VM API wrapper"
+keywords = ["numbat", "wasm", "webassembly", "blockchain", "contract"]
+categories = ["no-std", "wasm", "cryptography::cryptocurrencies", "development-tools::ffi"]
+
+[dependencies.numbat-wasm]
+version = "0.17.2"
+path = "../numbat-wasm"
