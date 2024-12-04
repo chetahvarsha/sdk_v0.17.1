@@ -50,7 +50,7 @@ Arguments are about what you would expect for an marketplace:
 `minimum bid` - lowest amount someone can bid.  
 `maximum bid` - maximum bid. If this is reached, auction can be ended before the deadline.  
 `deadline` - the deadline for the auction, expressed as a unix timestamp.  
-`accepted_payment_token` - The token you wish to receive as payment. For eGLD, input `REWA`.  
+`accepted_payment_token` - The token you wish to receive as payment. For rEWA, input `REWA`.  
 `opt_accepted_payment_token_nonce` - "nonce" (also known as "id") for the DCDT token. For usual DCDTs (not NFTs), this is 0 and can be skipped.  
 
 To perform the transfer from your account to the smart contract, you have to use the following transaction format:

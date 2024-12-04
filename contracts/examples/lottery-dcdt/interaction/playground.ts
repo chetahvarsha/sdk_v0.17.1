@@ -45,7 +45,7 @@ async function main() {
         gasLimit: new GasLimit(50000000),
         args: [
             Argument.fromUTF8("foobar"),
-            Argument.fromBigInt(Balance.eGLD(1).valueOf()),
+            Argument.fromBigInt(Balance.rEWA(1).valueOf()),
             Argument.fromMissingOptional(),
             Argument.fromMissingOptional(),
             Argument.fromProvidedOptional(new U32Value(1)),
